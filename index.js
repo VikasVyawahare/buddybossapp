@@ -18,7 +18,7 @@ import config from "@src/build_config.json";
 export const applyCustomCode = async (externalCodeSetup) => {
   const { blocksApi } = externalCodeSetup;
 
-  await initialize("374SZPV2W7WL7BQ", config.app_id); // REPLACE "374SZPV2W7WL7BQ" WITH YOUR APP KIT LICENSE KEY
+  await initialize("F1A6G04ADGMMT0A", config.app_id); // REPLACE "374SZPV2W7WL7BQ" WITH YOUR APP KIT LICENSE KEY
 
   blocksApi.addCustomBlockRender("blockli/blog-cards", (props) => (
     <BlockliBlog {...props} />
