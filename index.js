@@ -8,7 +8,7 @@ const { RNCustomCode } = NativeModules;
 import {
   initialize,
   BlockliBlog,
-  //BlockliFeatured,
+  BlockliFeatured,
   BlockliGraphics,
   BlockliPost,
   BlockliVideo,
